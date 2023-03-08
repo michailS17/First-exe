@@ -2,6 +2,10 @@
 using namespace std;
 int main()
 {
-cout<<"hello mike";
+    float a;
+cout<<"Hello there!";
+cout<<" what's your name: ";
+cin>>a;
+cout<<"/n Hello " <<a;
 return 0;
 }
