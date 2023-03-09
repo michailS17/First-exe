@@ -1,14 +1,15 @@
 #include<iostream>
+#include<string>
 using namespace std;
 int main()
 {
-    char a,b ;
+    string a,b ;
     cout<<"Hello there!";
 cout<<" what's your name: ";
 cin>>a; 
-cout<<"\n Hello " << a; << "!!!";
-cout<<"welcome"; 
-cout<<" enter any key to close ";
+cout<<"\nHello " << a << "!!!";
+cout<<"\nwelcome"; 
+cout<<"\nenter any key to quit ";
 cin>>b;
 return 0;
 }
