@@ -7,8 +7,6 @@ float height,mass,bmi,p,user_number,x;
     int y=1, d;
 int type_1()
     {
-    cout<<"enter user number: ";
-    cin>>user_number;
     cout<<"female or male: ";
     cin>>gender;
     cout<<"your mass: ";
