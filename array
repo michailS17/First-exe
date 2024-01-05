@@ -1,0 +1,48 @@
+array(string) is a group of serious memory location 
+its a concecuative memory location with same name and type
+allows as to save multiple values at the same time
+     array is a numeric data
+     string is a non numeric data or group of characters
+array is a derived data type which is built up on primitive datatype
+characterestics- they both use collective name(identifier) 
+              - length(size) is always >=2
+              -elements(the values to be stored)
+              -index(subscript)- the reference of an individual item(elements) starts from zero
+advantages
+-store large numbers with single name
+-used to process may values
+limitation 
+-static memory allocation(you cant change it once its located)
+two types of array
+1. 1D - horizontal or vertical row
+2. multiple Dimension- it can be 2D(excel),3D,4D
+ 
+1.declare an array to store 10 persons height, weight and bmi
+2.declare an array to store a marks on of 50 students for 5 subjects
+3 declare an array to store a daily temperature for one week hint (daily temp contain the min max and average)
+
+strings
+is a collection of characters in a memory space
+usually a meaningful sequence
+anything with "" quote
+empty string ""
+have no special data type to store strings it uses char                                   
+strings are always terminated and last element is always a null character "\0"
+
+ string declaration two types
+ c style of decalration string(array style)
+ -char stringname[size];   1D string
+ -char stringname[rsize][csize]; 2d string
+ C++ style (user defined)
+ -uses <srting.h> library and uses string datatype 
+ -string mystring,country;
+ -string adress[10][10] ; 2D string
+ -size allocation after runtime
+ -uses agregate operation unlike array
+*it can optimize size while initialization
+char adress[]="addis ababa, ethiopia";
+*initalizing every character{'s','d','\0'};
+2d initialization
+char word[5][4]={"cat","dog","rat","ox"};
+
+string libraries for c and c++ style or string for c and c++ type???

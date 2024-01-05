@@ -17,15 +17,16 @@ int type_1()
     
     if((gender=="male" && bmi>25) || (gender=="female" && bmi>23))  //string must be in double quotation
     {
-       cout<<"overweight"<<endl;
+       cout<<height << "\t" << mass<< "\t" <<bmi<< "\t" <<gender<<"\t";
+       cout<<"overweight" << bmi <<endl;
     }
     else if((gender=="male" && bmi<20 )||( gender=="female" && bmi<18))
     {
-       cout<<"underweight"<<endl;
+       cout<<"underweight" << bmi <<endl;
     }
     else if((gender=="male" && bmi>=20 &&bmi<=25) || (gender=="female" && bmi>=18&&bmi<=23))
     {
-       cout<<"healthy"<<endl;
+       cout<<"healthy" << bmi <<endl;
     }
     else 
     {
@@ -54,19 +55,20 @@ int type_2()
     {
        cout<<"overweight"<<endl;
     }
-    if((gender=="male" && bmi<20 )||( gender=="female" && bmi<18))
+    else if((gender=="male" && bmi<20 )||( gender=="female" && bmi<18))
     {
        cout<<"underweight"<<endl;
     }
-    if((gender=="male" && bmi>=20 &&bmi<=25) || (gender=="female" && bmi>=18&&bmi<=23))
+    else if((gender=="male" && bmi>=20 &&bmi<=25) || (gender=="female" && bmi>=18&&bmi<=23))
     {
        cout<<"healthy"<<endl;
+       goto l;
     }
     else 
     {
        cout<<"error try again!";
-       goto l;
-    }
+       
+    } 
     }
     }
     int type_3()
@@ -100,7 +102,8 @@ int type_2()
     cout<<" type 1 to continue and any other key to quit ";
     cin>>y;
 
-    }}
+    }
+    }
  
 int main()
 {
